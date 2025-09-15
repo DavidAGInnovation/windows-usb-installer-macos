@@ -41,8 +41,8 @@ Interactive (recommended):
 5. Wait for copying and potential `install.wim` splitting to finish.
 
 Non‑interactive examples (pre‑set environment variables):
-- `ISO_PATH="~/Downloads/Win11_24H2_English_x64.iso" DISK=disk3 ./create_win11_usb.sh`
-- `ISO_PATH="/path/with spaces/Win11.iso" DISK=/dev/disk4 USB_LABEL=WIN11 ./create_win11_usb.sh`
+- `ISO_PATH="~/Downloads/Win11_24H2_English_x64.iso" DISK=disk3 bash create_win11_usb.sh`
+- `ISO_PATH="/path/with spaces/Win11.iso" DISK=/dev/disk4 USB_LABEL=WIN11 bash create_win11_usb.sh`
 
 Environment variables respected by the script:
 - `ISO_PATH`: Path to the Windows ISO.
